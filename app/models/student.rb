@@ -6,3 +6,6 @@ class Student < ApplicationRecord
     end
 
 end
+
+student = Student.new(first_name: "Dwayne", last_name: "Johnson")
+puts student.to_s
